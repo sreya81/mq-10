@@ -1,0 +1,16 @@
+.container{
+    width:300px;
+    height:300px;
+    border:2px solid;
+}
+@media screen and (orientation:portrait){
+    .container{
+        border-radius:0;
+    }
+}
+@media screen and (orientation:landscape){
+    .container{
+        border-radius:20px;
+    }
+}
+    
